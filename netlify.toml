@@ -1,14 +1,6 @@
 [build]
-  base = "."
-  command = "ls -la && pwd && npm ci --legacy-peer-deps && npm run build && echo 'Build completed successfully'"
+  command = "npm install --legacy-peer-deps && npm run build"
   publish = ".next"
 
 [build.environment]
-  NODE_VERSION = "18.17.0"
-  NPM_FLAGS = "--legacy-peer-deps"
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
-
-[functions]
-  node_bundler = "esbuild"
+  NODE_VERSION = "18"
