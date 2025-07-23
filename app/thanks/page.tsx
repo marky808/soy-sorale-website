@@ -75,32 +75,6 @@ export default function ThanksPage() {
                         </p>
                       </div>
                     </div>
-
-                    <div className="flex items-start space-x-4">
-                      <div className="flex-shrink-0 w-8 h-8 bg-[#81D4E6] text-white rounded-full flex items-center justify-center font-bold">
-                        2
-                      </div>
-                      <div>
-                        <h3 className="font-semibold text-[#333333] mb-2">スタッフからご連絡</h3>
-                        <p className="text-[#666666]">
-                          営業時間内（11:00-22:00、水曜定休）に、スタッフより詳細なご案内をさせていただきます。
-                          お急ぎの場合は、直接お電話でご連絡ください。
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className="flex items-start space-x-4">
-                      <div className="flex-shrink-0 w-8 h-8 bg-[#81D4E6] text-white rounded-full flex items-center justify-center font-bold">
-                        3
-                      </div>
-                      <div>
-                        <h3 className="font-semibold text-[#333333] mb-2">ご予約確定</h3>
-                        <p className="text-[#666666]">
-                          施術内容とお日にちを確認させていただき、ご予約を確定いたします。
-                          完全予約制・1日3組限定のプライベートサロンです。
-                        </p>
-                      </div>
-                    </div>
                   </div>
                 </CardContent>
               </Card>
