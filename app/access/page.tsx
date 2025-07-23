@@ -116,22 +116,40 @@ export default function AccessPage() {
         </ScrollAnimationWrapper>
 
         {/* お問い合わせフォーム */}
-        <ScrollAnimationWrapper
-          animation="fadeUp"
-          id="contact"
-          className="py-20 bg-white rounded-2xl mx-4 my-12 shadow-lg"
-        >
-          <div className="container mx-auto px-4">
-            <div className="max-w-2xl mx-auto">
-              <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold text-[#81D4E6] mb-4">お問い合わせフォーム</h2>
-                <p className="text-[#333333]">ご質問やご相談はこちらからお気軽にどうぞ</p>
-              </div>
+        <div id="contact">
+          <ScrollAnimationWrapper
+            animation="fadeUp"
+            className="py-20 bg-white rounded-2xl mx-4 my-12 shadow-lg"
+          >
+            <div className="container mx-auto px-4">
+              <div className="max-w-2xl mx-auto">
+                <div className="text-center mb-12">
+                  <h2 className="text-3xl font-bold text-[#81D4E6] mb-4">お問い合わせフォーム</h2>
+                  <p className="text-[#333333]">ご質問やご相談はこちらからお気軽にどうぞ</p>
+                </div>
 
               <ScrollAnimationWrapper animation="fadeUp" delay={100}>
                 <Card className="bg-white shadow-xl border-[#81D4E6]">
                   <CardContent className="p-8">
-                    <form name="contact" method="POST" data-netlify="true" className="space-y-6">
+                    <form 
+                      name="contact" 
+                      method="POST" 
+                      data-netlify="true" 
+                      data-netlify-honeypot="bot-field"
+                      action="/thanks"
+                      className="space-y-6"
+                    >
+                      {/* Netlify用の隠しフィールド */}
+                      <input type="hidden" name="form-name" value="contact" />
+                      <input type="hidden" name="subject" value="SOY SORAREお問い合わせ" />
+                      <input type="hidden" name="to" value="soysolare@gmail.com" />
+                      
+                      {/* スパム対策用の隠しフィールド */}
+                      <div style={{ display: 'none' }}>
+                        <label htmlFor="bot-field">Don't fill this out if you're human:</label>
+                        <input id="bot-field" name="bot-field" />
+                      </div>
+
                       <div className="grid md:grid-cols-2 gap-6">
                         <div>
                           <Label htmlFor="name" className="text-[#333333]">
@@ -198,8 +216,9 @@ export default function AccessPage() {
                 </Card>
               </ScrollAnimationWrapper>
             </div>
-          </div>
-        </ScrollAnimationWrapper>
+            </div>
+          </ScrollAnimationWrapper>
+        </div>
 
         {/* 注意事項 */}
         <ScrollAnimationWrapper animation="fadeUp" className="py-16 bg-[#81D4E6] rounded-2xl mx-4 my-12 shadow-lg">

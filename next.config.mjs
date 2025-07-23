@@ -12,6 +12,15 @@ const nextConfig = {
   output: 'export',
   trailingSlash: true,
   distDir: 'out',
+  async redirects() {
+    return [
+      {
+        source: '/contact-form.html',
+        destination: '/access',
+        permanent: true,
+      },
+    ]
+  },
 }
 
 export default nextConfig
