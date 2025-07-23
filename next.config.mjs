@@ -12,6 +12,9 @@ const nextConfig = {
   output: 'export',
   trailingSlash: true,
   skipTrailingSlashRedirect: true,
+  experimental: {
+    esmExternals: false,
+  },
 }
 
 export default nextConfig
