@@ -271,11 +271,11 @@ export default function SoySelareHome() {
           </section>
         </ScrollAnimationWrapper>
 
-        {/* SOY SOLAREの特徴 */}
+        {/* Soy Solareの特徴 */}
         <ScrollAnimationWrapper animation="fadeUp">
           <section className="py-16 bg-[#F5F5F5] rounded-2xl mx-4 my-12 shadow-lg">
             <div className="container mx-auto px-4">
-              <h2 className="text-3xl font-medium text-center mb-12 text-[#81D4E6]">SOY SOLAREの特徴</h2>
+              <h2 className="text-3xl font-medium text-center mb-12 text-[#81D4E6]">Soy Solareの特徴</h2>
               <div className="grid md:grid-cols-2 gap-8">
                 {/* 特徴1 */}
                 <ScrollAnimationWrapper animation="scaleIn" delay={100}>
@@ -463,11 +463,11 @@ export default function SoySelareHome() {
                         allowFullScreen
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
-                        title="SOY SOLARE 地図"
+                        title="Soy Solare 地図"
                       ></iframe>
                     </div>
                     <div className="absolute top-4 left-4 bg-white/95 px-4 py-3 rounded-lg shadow-md">
-                      <p className="text-sm font-semibold text-[#333333]">SOY SOLARE</p>
+                      <p className="text-sm font-semibold text-[#333333]">Soy Solare</p>
                       <p className="text-xs text-[#333333]">仲町台駅から徒歩3分</p>
                       <p className="text-xs text-[#333333]">磯部ビル402</p>
                     </div>

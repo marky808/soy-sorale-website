@@ -25,9 +25,9 @@ export default function Header() {
           {/* ロゴ */}
           <Link href="/" className="flex items-center">
             <div className="flex items-center space-x-3">
-              <img src="/images/soy-solare-logo.png" alt="SOY SORALE ロゴ" className="w-12 h-12 object-contain" />
+              <img src="/images/soy-solare-logo.png" alt="Soy Solare ロゴ" className="w-12 h-12 object-contain" />
               <div>
-                <div className="text-2xl font-bold text-[#81D4E6]">SOY SORALE</div>
+                <div className="text-2xl font-bold text-[#81D4E6]">Soy Solare</div>
                 <div className="text-sm text-[#333333]">横浜・仲町台駅徒歩3分</div>
               </div>
             </div>

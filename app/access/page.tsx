@@ -255,7 +255,7 @@ export default function AccessPage() {
                         <div className="flex items-start space-x-3">
                           <MapPin className="h-5 w-5 text-[#81D4E6] mt-1" />
                           <div>
-                            <p className="font-semibold text-[#333333]">SOY SOLARE（ソイソラーレ）</p>
+                            <p className="font-semibold text-[#333333]">Soy Solare（ソイソラーレ）</p>
                             <p className="text-[#333333]">〒224-0041</p>
                             <p className="text-[#333333]">横浜市都筑区仲町台1-15-15磯部ビル402</p>
                           </div>
@@ -296,7 +296,7 @@ export default function AccessPage() {
                       <div className="space-y-2 text-[#333333] text-sm">
                         <p>1. 仲町台駅を出て、センター北方面へ向かいます</p>
                         <p>2. 徒歩約3分で磯部ビルが見えてきます</p>
-                        <p>3. 4階の402号室がSOY SOLAREです</p>
+                        <p>3. 4階の402号室がSoy Solareです</p>
                         <p className="text-[#81D4E6] font-semibold mt-3">※迷われた場合はお気軽にお電話ください</p>
                       </div>
                     </CardContent>
@@ -316,11 +316,11 @@ export default function AccessPage() {
                       allowFullScreen
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
-                      title="SOY SOLARE 地図"
+                      title="Soy Solare 地図"
                     ></iframe>
                   </div>
                   <div className="absolute top-4 left-4 bg-white/95 px-4 py-3 rounded-lg shadow-md">
-                    <p className="text-sm font-semibold text-[#333333]">SOY SOLARE</p>
+                    <p className="text-sm font-semibold text-[#333333]">Soy Solare</p>
                     <p className="text-xs text-[#333333]">仲町台駅から徒歩3分</p>
                     <p className="text-xs text-[#333333]">磯部ビル402</p>
                   </div>

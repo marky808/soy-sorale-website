@@ -32,7 +32,7 @@ export default function AboutPage() {
         <section className="py-16 bg-[#81D4E6]">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-4xl lg:text-5xl font-medium text-white mb-4">Concept</h1>
-            <p className="text-lg text-white">SOY SOLAREのコンセプト</p>
+            <p className="text-lg text-white">Soy Solareのコンセプト</p>
             <div className="w-24 h-1 bg-white mx-auto mt-4"></div>
           </div>
         </section>
@@ -61,7 +61,7 @@ export default function AboutPage() {
                 <div className="relative">
                   <img
                     src="/images/soy-solare-floral-logo.png"
-                    alt="SOY SOLARE 花リースロゴ"
+                    alt="Soy Solare 花リースロゴ"
                     className="w-full h-80 object-contain bg-white rounded-lg shadow-lg p-8"
                   />
                 </div>
@@ -266,7 +266,7 @@ export default function AboutPage() {
                   <div className="relative">
                     <img
                       src="/images/salon-treatment-room.png"
-                      alt="SOY SOLARE 施術室"
+                      alt="Soy Solare 施術室"
                       className="w-full h-64 object-cover rounded-lg shadow-md"
                     />
                     <div className="absolute bottom-4 left-4 bg-white/90 px-3 py-1 rounded">
@@ -367,7 +367,7 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-medium text-white mb-6">オーナーからのメッセージ</h2>
                 <div className="bg-white/95 p-8 rounded-lg shadow-lg">
                   <p className="text-[#333333] leading-relaxed text-lg mb-4">
-                    SOY SOLAREは、忙しい日常を忘れて心からリラックスしていただける空間を目指しています。
+                    Soy Solareは、忙しい日常を忘れて心からリラックスしていただける空間を目指しています。
                   </p>
                   <p className="text-[#333333] leading-relaxed mb-4">
                     お一人お一人のお悩みに寄り添い、最適な施術をご提案いたします。

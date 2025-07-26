@@ -10,7 +10,7 @@ const notoSansJP = Noto_Sans_JP({
 })
 
 export const metadata: Metadata = {
-  title: "SOY SORALE - 横浜・仲町台駅徒歩3分の隠れ家エステサロン", // ここを修正
+  title: "Soy Solare - 横浜・仲町台駅徒歩3分の隠れ家エステサロン",
   description: "1日3組限定の完全プライベート空間で、心と身体を癒す大人女性のための隠れ家サロン",
   icons: {
     // ファビコン設定を追加

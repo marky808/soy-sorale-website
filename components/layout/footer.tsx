@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8">
           {/* サロン情報 */}
           <div>
-            <div className="text-2xl font-bold text-white mb-4">SOY SOLARE</div>
+            <div className="text-2xl font-bold text-white mb-4">Soy Solare</div>
             <p className="text-white/90 mb-4">横浜・仲町台駅徒歩3分の隠れ家エステサロン</p>
             <p className="text-sm text-white/80">大人女性が心から癒される特別な時間を提供いたします</p>
           </div>
@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/30 mt-8 pt-8 text-center">
-          <p className="text-white/80 text-sm">© 2024 SOY SOLARE. All rights reserved.</p>
+          <p className="text-white/80 text-sm">© 2024 Soy Solare. All rights reserved.</p>
         </div>
       </div>
     </footer>
