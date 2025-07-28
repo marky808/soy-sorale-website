@@ -106,7 +106,7 @@ export default function AboutPage() {
                         <CardContent className="p-4 text-center">
                           <Coffee className="h-8 w-8 text-[#81D4E6] mx-auto mb-2" />
                           <h4 className="font-medium text-[#333333]">デトックスハーブティー</h4>
-                          <p className="text-sm text-[#333333] mt-2">施術前の体調アップ</p>
+                          <p className="text-sm text-[#333333] mt-2">施術前の代謝アップ</p>
                         </CardContent>
                       </Card>
                     </ScrollAnimationWrapper>
