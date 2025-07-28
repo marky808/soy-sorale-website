@@ -339,7 +339,7 @@ export default function SoySelareHome() {
                         <div className="flex-grow">
                           <h3 className="text-xl font-semibold text-[#81D4E6] mb-2">インナーケア</h3>
                           <p className="text-gray-600 text-sm">
-                            エステ前にデトックスハーブティーを飲んで体調アップ。エステ後に栄養満点ソイプロテインで美肌をつくります。
+                            エステ前にデトックスハーブティーを飲んで代謝アップ。エステ後に栄養満点ソイプロテインで美肌をつくります。
                           </p>
                         </div>
                       </div>

@@ -95,7 +95,7 @@ export default function AboutPage() {
                     </h3>
                     <p className="text-[#81D4E6] font-semibold text-lg mb-4">目指すは「インナービューティー」</p>
                     <div className="space-y-3 text-[#333333]">
-                      <p>エステ前にデトックスハーブティーを飲んで体調アップ</p>
+                      <p>エステ前にデトックスハーブティーを飲んで代謝アップ</p>
                       <p>エステ後に栄養満点ソイプロテインで美肌をつくります</p>
                     </div>
                   </div>
