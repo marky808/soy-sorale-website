@@ -29,13 +29,13 @@ export default function SoySelareHome() {
 
         {/* メインビジュアル */}
         <section className="relative mb-12">
-          <div className="grid lg:grid-cols-2 min-h-[440px] lg:min-h-[500px]">
+          <div className="grid lg:grid-cols-2 min-h-[390px] lg:min-h-[500px]">
             {/* 左側：画像 */}
             <div className="relative">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/32557116_s.jpg-iRv8L6ESxeztISWLz5sGfToYPxVARu.jpeg"
                 alt="リラックスしたエステサロンでのマッサージ施術風景"
-                className="w-full h-full min-h-[440px] lg:min-h-[500px] object-cover"
+                className="w-full h-full min-h-[390px] lg:min-h-[500px] object-cover"
               />
             </div>
 
