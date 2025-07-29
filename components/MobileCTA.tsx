@@ -9,8 +9,8 @@ export default function MobileCTA() {
 
   useEffect(() => {
     const handleScroll = () => {
-      // スクロール位置が100px以上の場合に表示
-      setIsVisible(window.scrollY > 100)
+      // 少しでもスクロールしたら表示（10px以上）
+      setIsVisible(window.scrollY > 10)
     }
 
     window.addEventListener("scroll", handleScroll)
