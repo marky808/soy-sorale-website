@@ -57,7 +57,7 @@ export default function MenuPage() {
                           <h3 className="text-2xl font-semibold text-[#333333]">濃密生プラセンタ美顔</h3>
                         </div>
                         <p className="text-lg text-[#333333] mb-6">
-                          究極のアンチエイジングでお肌が蘇る。非加熱の冷凍保存の生プラセンタをナノニードルスキンを使って直接肌に導入。シミ・しわ・乾燥の改善。
+                          究極のアンチエイジングでお肌が蘇る。非加熱の冷凍保存の生プラセンタをナノスキンニードルを使って直接肌に導入。シミ・しわ・乾燥の改善。
                         </p>
 
                         <div className="mb-6">
@@ -145,7 +145,7 @@ export default function MenuPage() {
                         />
                         <h4 className="text-lg font-medium text-[#333333] mb-3 mt-4">小顔&脂肪燃焼</h4>
                         <p className="text-[#333333] text-sm mb-3">
-                          エラ張り解消マッサージ。完全オーガニックの脂肪溶解剤「レモンボトル」であごド・ほほの脂肪を減らします
+                          エラ張り解消マッサージ。完全オーガニックの脂肪溶解剤「レモンボトル」でアゴと頬の脂肪を減らします
                         </p>
                         <p className="text-[#81D4E6] font-bold">¥3,000</p>
                       </CardContent>
